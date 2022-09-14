@@ -20,8 +20,7 @@ lpx_links is a utilty to get the direct download links for the additional sample
 Simply open the terminal and paste the command below.  
   
 ```sh  
- cd ~/Downloads; mkdir -p lpx_links/app ; cd lpx_links/app ; curl -#L https://goo.gl/nUrpPi | tar -xzv --strip-components 1 ; ./lpx_links.rb  
-  
+ cd ~/Downloads; curl -L -o master.zip https://github.com/chriswayg/Logic-Pro-X-sample-downloader/archive/refs/heads/master.zip ; unzip -oq master.zip ; cd Logic-Pro-X-sample-downloader-master ; ./lpx_links.rb
 ```  
   
 To download I recomend using *aria2*   
