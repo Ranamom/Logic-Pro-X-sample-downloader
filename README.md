@@ -53,7 +53,7 @@ These can be found roughly here:
 /private/var/folders/pm/62k3...random/C/com.apple.MusicApps/audiocontentdownload.apple.com/lp10_ms3_content_2016
 ```
 
-The packages get installed in `/Library/Application Support/Logic`
+Most packages get installed in `/Library/Application Support/Logic` and Loops can be found in `/Library/Audio/Apple Loops/Apple`.
 
 ### Version
 
