@@ -55,6 +55,9 @@ These can be found roughly here:
 
 Most packages get installed in `/Library/Application Support/Logic` and Loops can be found in `/Library/Audio/Apple Loops/Apple`.
 
+Relevant Links:
+- https://www.logicprohelp.com/forums/topic/122990-reinstalling-logic-x-with-existing-sound-library/
+
 ### Version
 
 0.0.7-1 - modified download_install.sh to only install the packages downloaded with aria2.
