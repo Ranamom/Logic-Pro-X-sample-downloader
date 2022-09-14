@@ -43,6 +43,8 @@ To install the downloaded packages use the following command:
 cd Logic-Pro-X-sample-downloader-master && sudo ./install_pkgs.sh ~/Downloads/logic_content
 ```
 
+Or use https://github.com/henri/installpkg
+
 ### Content downloaded in Logic Pro
 
 aria2 generally downloads faster than Logic Pro, but sometimes a few files could be missing, which can be downloaded within Logic Pro to get a complete set.
@@ -55,8 +57,9 @@ These can be found roughly here:
 
 Most packages get installed in `/Library/Application Support/Logic` and Loops can be found in `/Library/Audio/Apple Loops/Apple`.
 
-Relevant Links:
-- https://www.logicprohelp.com/forums/topic/122990-reinstalling-logic-x-with-existing-sound-library/
+### Relevant Links:
+- How to reconnect an existing sound library: https://www.logicprohelp.com/forums/topic/122990-reinstalling-logic-x-with-existing-sound-library/
+- This works similar to lpx_links:  https://github.com/daveweale/appleLoops
 
 ### Version
 
