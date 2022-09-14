@@ -43,6 +43,18 @@ To install the downloaded packages use the following command:
 cd Logic-Pro-X-sample-downloader-master && sudo ./install_pkgs.sh ~/Downloads/logic_content
 ```
 
+### Content downloaded in Logic Pro
+
+aria2 generally downloads faster than Logic Pro, but sometimes a few files could be missing, which can be downloaded within Logic Pro to get a complete set.
+
+These can be found roughly here:
+
+```sh  
+/private/var/folders/pm/62k3...random/C/com.apple.MusicApps/audiocontentdownload.apple.com/lp10_ms3_content_2016
+```
+
+The packages get installed in `/Library/Application Support/Logic`
+
 ### Version
 
 0.0.7-1 - modified download_install.sh to only install the packages downloaded with aria2.
